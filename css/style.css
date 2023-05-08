@@ -34,3 +34,9 @@
   .ulstyle{
     padding-left:20px
   }
+
+  .black{
+    color: white;
+    background-color: black;
+    opacity: .5;
+  }
