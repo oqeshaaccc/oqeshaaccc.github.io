@@ -40,3 +40,9 @@
     background-color: black;
     opacity: .5;
   }
+
+  .carousel-item img{
+    width: 100%;
+    height: auto;
+   
+  }
