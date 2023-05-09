@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">O. Qisha - Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#about">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html#dataanalysisprojects">Data Analysis</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="index.html#webscrapingprojects">Web Scraping</a>
+          
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Connect
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://www.linkedin.com/in/uhoudqisha/">Linkedin</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://github.com/oqeshaaccc/">GitHub</a>
+          
+        </div>
+      </li>
+       
+    </ul>   
+  </div>
+</nav><div class="col-md-12">
+<br/>
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h3 class="pb-4 mb-4 fst-italic border-bottom">
+        Car sale analysis using Python
+      </h3>
+      <a href="https://github.com/oqeshaaccc/Car_sale_analysis/blob/main/Car_sales.csv">Dataset</a>
+      |
+      <a href="https://github.com/oqeshaaccc/Car_sale_analysis/blob/main/Car_Sales_EDA.ipynb">NoteBook</a>
+      <br/>
+      <p class="lead">This was a group project, in which we used the Dataset called CarSales, which shows various stats about car model sales
+        <br/>
+        
+        
+      <p>In the NoteBook file <a href="https://github.com/oqeshaaccc/Car_sale_analysis/blob/main/Car_Sales_EDA.ipynb" target="bl
+        ">Car_Sales_EDA.ipynb</a></p>
+        <ul class="ulstyle">
+          <li>We grouped our data by car manufacturers and then decided to use Volve for our analysis</li>
+          <li>In this project, we worked with the CarSales dataser. We created 3 Combo Chart Visualizations comparing the Sales_in_thousands and Price_in_thousands variables for different Models of Volvo cars.</li>
+          <li>We grouped our data by Manufacturers and then decided to just look at Volve Models for our analysis. Using the Matplotlib, Seaborn, and Plotly libraries we generated our combo charts with Sales_in_thousands and Price_in_thousands in our y-axis and Volvo Models along the x-axis</li>
+          <li>Comparing the visualizations we made using the 3 different libraries, we decided that using the Plotly library was our preferred method. This was the best choice for us since we enjoyed the interactiveness of the chart and the scaling the y-axis differed from the other charts. With Plotly, it changed the scale used in the y-axis to include both our variables instead of having two separate y-axises plotted at the same time.</li>
+          <li>Analysis of Results from Charts From the charts above, we can see that generally if the price of a car model is high then the sales will tend to be lower, although there are instances where this isn't true. To see why that would be the case requires some further analysis.</li>
+          <li>In the future if we were to continue analysis of this data further, a few things we could do are:
+            <br/>
+      
+           
+            <ul>
+              <li>Create visualizations for comparing Sales and Price for car Models of the other car Manufacturers</li>
+               <li>Test which other variables have an effect on the price variable</li>
+            </ul>
+            
+          </li>
+          <li>
+            Created a Waffle Chart to visualize the variable 'Vehicle_type'
+          </li>
+          <li>
+            Generated a word cloud to display which Manufacturers occur most in our data <br/>
+          <ul><li>Manufacturer is the only variable in our data that we could use to generate a word cloud since our data contains mostly only numerical values</li></ul>
+          </li>
+
+        
+        
+        </ul>
+
+   
+
+        
+    </div>
+    <div class="col-md-5">
+      <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      !--><img src="images/withPythonVisualization2.png" class="col-md-12"/>
+    </div>
+
+    
+  </div>
+  <br/>
+  <img src="images/withPythonVisualizationBigImage.png" class="col-md-12"/>
+  <br/>
+</div>
+
+
+
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="index.html#dataanalysisprojects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+      <li class="nav-item"><a href="index.html#about" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© O.Qisha. Portfolio</p>
+  </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+</body>
+</html>
